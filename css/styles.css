@@ -1,0 +1,76 @@
+body {
+  background-color: #f8f8ed;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 4px;
+  width: 5%;
+  border-color: #28527a;
+}
+
+h1 {
+  color: #393e46;
+}
+
+h2 {
+  color: #66bfbf;
+}
+
+h3 {
+  color: #66bfbf;
+}
+button{
+  min-width: 10px;
+  min-height: 2px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 100;
+  color: #313133;
+  background: linear-gradient(90deg, rgba(129, 230, 217, 1) 0%, rgba(79, 209, 197, 1) 100%);
+  ;
+
+  border-radius: 1000px;
+  box-shadow: none;
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+}
+.Qualifications{
+  font-family:monospace;
+  font-size: 30px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.Skills{
+  font-family:monospace;
+  font-size: 30px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+p:link{
+  color:green;
+}
+p:visited{
+  color:green;
+}
+p:hover{
+  color:red;
+}
+p:active{
+  color:yellow;
+}
+button:hover{
+  color:red;
+}
+button:visited{
+  color:green;
+}
+button:active{
+  color:yellow;
+}
